@@ -14,7 +14,7 @@ runs:
   steps:
     - run: echo "Hi, I'm a calculator action!"
       shell: bash
-    - run: echo "x=${{ inputs.x }}, y=${{ inputs.y }}"
+    - run: echo "x = ${{ inputs.x }}, y = ${{ inputs.y }}"
       shell: bash
     - id: plus
       run: echo "result=$((${{ inputs.x }} + ${{ inputs.y }}))" >> "$GITHUB_OUTPUT"
