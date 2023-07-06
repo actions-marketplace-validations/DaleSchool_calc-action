@@ -1,4 +1,5 @@
-name: Calculate with Two Numbers
+name: Calc Action
+description: Calculate with Two Numbers
 inputs:
   x:
     default: 0
