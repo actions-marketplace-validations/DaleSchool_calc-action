@@ -1,4 +1,4 @@
-name: Math Calculator
+name: Calculate with Two Numbers
 inputs:
   x:
     default: 0
